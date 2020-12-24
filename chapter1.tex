@@ -1,0 +1,12 @@
+% !TeX root = ./main.tex
+
+Chapter 1 exercises
+
+\begin{enumerate}
+    \item[Exercise 1.5] Confirm that the set of all reflections agrees with the set of transpositions $(i,j)$. For each transposition $(i,j)$ with $i<j$, find an expression for it of lenght $2(j-i) - 1$.
+    
+    \begin{proof}
+    First, map simple reflections to simple transpositions $s_i \mapsto (i,i+1)$. 
+    Next, extend this map to a homomorphism $\phi$ of $W$ and $S_n$. To check that it extends, let $w\in W$ be an element which is conjugate to a simple reflection, i.e.\ $s_{i_1}\cdots s_{i_a} = w = u s_i u^{-1}$ for some $u = s_{j_1}\cdots s_{j_b}\in W$. Probably it suffices to check the case that $W$ is a product of two simple reflections, so let's start there. If $w = s_p s_q = u\cdot s_i$, then $(p,p+1)(q,q+1)=\phi(u)\cdot (i,i+1)$. 
+    \end{proof}
+\end{enumerate}
