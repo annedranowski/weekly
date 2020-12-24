@@ -1,0 +1,3 @@
+# weekly
+
+auto didactic journey
